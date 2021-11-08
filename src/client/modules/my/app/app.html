@@ -3,7 +3,9 @@
       <my-header-logo onbuttonclick={handleButtonClick}></my-header-logo>
     </header>
     <main class="content">
+      <template if:true={homeTabSelected}>
       <my-home-square ></my-home-square>
+      </template>
       <!-- Add components here -->
     </main>
   </template>
